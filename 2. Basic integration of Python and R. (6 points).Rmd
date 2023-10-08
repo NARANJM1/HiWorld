@@ -1,0 +1,28 @@
+---
+title: "2. Basic integration of Python and R. (6 points)"
+author: "Miguel Naranjo, 97943"
+date: "2023-10-08"
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+  word_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+install.packages('reticulate')
+library(reticulate)
+```
+
+## Installation of Python packages by using R and R studio
+
+Implementation of a prime number finder. All steps MUST be clearly explained in a PDF document created by using R markdown. Marking will follow the criteria shown below:
+
+a\. There is a section in the report dedicated to explanation of implemented code.
+
+b\. There are subsections explaining each of the 3 requested items, including relevant code and screenshots when necessary.
+
+c\. Codes can be used by installing and/or downloading the scripts, with no need for modifying any of the provided code.
+
+Note: running your prime number finder should not trigger any package installation.
